@@ -23,3 +23,4 @@ for f in only_files:
   images = np.vstack([x])
   print(f, model.predict(x))
   # dataset.train_generator.class_indices
+  
