@@ -12,3 +12,6 @@ train_generator = train_datagen.flow_from_directory(
   class_mode='categorical',
   shuffle=True
 )
+
+classes = train_generator.class_indices
+name_of_class = list(classes.keys())
